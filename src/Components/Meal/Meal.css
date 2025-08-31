@@ -1,0 +1,126 @@
+#meal-card {
+    height: 365px;
+    width: 315px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0.8vw;
+    border: 2px solid #015939;
+    will-change: transform;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+#meal-card:hover > #meal-img img{
+    scale: 1.09;
+    transform: translateZ(0);
+}
+
+#meal-img {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    will-change: transform;
+}
+
+#meal-img img {
+    height: 90%;
+    width: 90%;
+    transition: 0.3s ease-in-out;
+    object-fit: cover;
+    will-change: transform;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+#meal-details h2 {
+    margin-top: 0.5vh;
+    font-size: 25px;
+}
+
+#meal-details p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.622);
+}
+
+#meal-details h4 {
+    font-size: 32px;
+}
+
+#add-div {
+    margin-top: 3px;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#add-div span {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#add-buttons {
+    font-size: 30px;
+    width: fit-content;
+    height: fit-content;
+    padding: 0px 20px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    will-change: transform;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+
+#add-buttons:nth-child(4) {
+    color: white;
+    background-color: #015939;
+}
+
+#add-buttons:nth-child(4):hover {
+    color:white;
+    background-color: #027f51;
+}
+
+#add-buttons:hover {
+    color: white;
+    background-color: #015939;
+}
+
+
+.skeleton {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background: linear-gradient(90deg, #eee, #f5f5f5, #eee);
+    background-size: 200% 100%;
+    animation: shimmer 1.2s infinite;
+    border-radius: 10px;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+/* Optimize for smooth scrolling */
+#meal-card {
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+
+/* Ensure smooth hover effects */
+#meal-card:hover {
+    transform: translateZ(0) translateY(-2px);
+    transition: transform 0.3s ease-out;
+}

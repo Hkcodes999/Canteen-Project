@@ -1,0 +1,179 @@
+#receipts {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFFFF;
+}
+
+#receipts-top {
+    width: 94vw;
+    padding: 1vw 2vw;
+    font-size: 3vw;
+}
+
+#receipts-top h3 {
+    color: #015939;
+}
+
+#past {
+    font-size: 5vw;
+    text-align: center;
+}
+
+#receipts-wrapper {
+    width: 94vw;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+
+#receipts-main {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    flex-direction: column;
+    justify-self: center;
+    gap: 2vh;
+    padding: 1vw;
+}
+
+#receipts-cards {
+    display: flex;
+    width: 100%;
+    padding: 1vw;
+    border-radius: 10px;
+    justify-content: space-between;
+    border: 1px solid gray;
+}
+
+#receipt-details {
+    display: flex;
+    flex-direction: column;
+    font-size: 2vw;
+}
+
+.status-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.status-buttons button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+
+.status-buttons .preparing {
+    background: orange;
+}
+
+.status-buttons .delivered {
+    background: green;
+}
+
+.status-buttons .cancel {
+    background: red;
+}
+
+.status-buttons .active {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+@media (max-width:600px) {
+    #receipts {
+        height: 100vh;
+        width: 100vw;
+        background-color: #FFFFFF;
+    }
+
+    #receipts-top {
+        width: 100vw;
+        padding: 1vw 2vw;
+        font-size: 10vw;
+        margin-top: 10vh;
+    }
+
+    #receipts-top h3 {
+        color: #015939;
+    }
+
+    #past {
+        font-size: 10vw;
+        text-align: center;
+    }
+
+    #receipts-wrapper {
+        width: 100vw;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #receipts-main {
+        display: flex;
+        height: fit-content;
+        width: 100%;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        gap: 2vh;
+        padding: 4vw;
+    }
+
+    #receipts-cards {
+        display: flex;
+        width: 100%;
+        padding: 3vw;
+        flex-direction: column;
+        border-radius: 10px;
+        justify-content: space-between;
+        border: 1px solid gray;
+    }
+
+    #receipt-details {
+        display: flex;
+        flex-direction: column;
+        font-size: 6vw;
+
+        justify-content: center;
+        margin-bottom: 5vh;
+    }
+
+    .status-buttons {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .status-buttons button {
+        padding: 6px 12px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        color: white;
+        font-weight: 500;
+    }
+
+    .status-buttons .preparing {
+        background: orange;
+    }
+
+    .status-buttons .delivered {
+        background: green;
+    }
+
+    .status-buttons .cancel {
+        background: red;
+    }
+
+    .status-buttons .active {
+        opacity: 0.7;
+        cursor: not-allowed;
+    }
+}
