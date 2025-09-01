@@ -317,7 +317,7 @@ function Menu() {
           transition={{ duration: 0.6, delay: 0.1 }}
         >
           <div id="search-left">
-            <img src="../src/assets/main-logo.png" alt="Logo" />
+            <img src="./main-logo.png" alt="Logo" />
           </div>
           <div id="search-right">
             <input

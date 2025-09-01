@@ -282,7 +282,7 @@ function Landing() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.2, delay: 0.3 }}
         >
-          <img src="../src/assets/main-logo.png" alt="Logo" />
+          <img src="/main-logo.png" alt="Logo" />
         </motion.div>
         <motion.div
           id="top-right"
@@ -324,11 +324,11 @@ function Landing() {
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.2, delay: 1 }}
         >
-          <img src="../src/assets/landing img.svg" alt="" />
+          <img src="/Landing img.svg" alt="" />
         </motion.div>
       </div>
 
-      <div id="landing-main-2">
+      <div id="/landing-main-2">
         <motion.div
           id="lm-2-top"
           initial={{ opacity: 0, y: 0 }}
@@ -382,7 +382,7 @@ function Landing() {
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.8 }}
           >
-            <img src="../src/assets/landing img 2.svg" alt="" />
+            <img src="/Landing img 2.svg" alt="" />
           </motion.div>
           <motion.div
             id="lm-3-right"
@@ -405,7 +405,7 @@ function Landing() {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.8 }}
             >
-              <img src="../src/assets/landing img 3.svg" alt="" />
+              <img src="/Landing img 3.svg" alt="" />
             </motion.div>
           </motion.div>
         </div>
