@@ -64,7 +64,7 @@ function Login() {
           transition={{ duration: 0.8 }}
         >
           <div id="login-left-top">
-            <img src="../src/assets/main-logo.png" alt="" />
+            <img src="/main-logo.png" alt="" />
           </div>
           <div id="login-left-center">
             <svg
