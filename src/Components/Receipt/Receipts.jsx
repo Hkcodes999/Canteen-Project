@@ -73,7 +73,7 @@ function Receipts() {
                     Date:{" "}
                     {new Date(order.timestamp.seconds * 1000).toLocaleString()}
                   </p>
-                  <p>Payment: {order.paymentMethod}</p>
+                  <p>Payment: {order.paymentMode}</p>
                   <p>Total: ₹{order.totalAmount}</p>
                   <p>Classroom: {order.classroom}</p>
 
