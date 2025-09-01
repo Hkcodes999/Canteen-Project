@@ -1,14 +1,22 @@
 
 @font-face {
-   font-family: bebas-neue;
-   src: url(./assets/BebasNeue-Regular.ttf);
+  font-family: 'bebas-neue';
+  src: url('./assets/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: bebas-neue;
+  font-family: 'bebas-neue', 'Arial', sans-serif;
+}
+
+/* Test if font is loading */
+body {
+  font-family: 'bebas-neue' !important;
 }
 
 

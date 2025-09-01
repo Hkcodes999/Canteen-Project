@@ -1,6 +1,6 @@
 #login {
     color: white;
-    font-family: bebas;
+    font-family: 'bebas-neue';
     letter-spacing: 1px;
     display: flex;
     height: 100vh;
@@ -103,7 +103,7 @@ form p {
 
     #login {
         color: white;
-        font-family: bebas;
+        font-family: 'bebas-neue';
         letter-spacing: 1px;
         display: flex;
         height: fit-content;
