@@ -6,12 +6,6 @@
 
 ---
 
-# Preview
-
-![Preview](./scroll%20pics/Qlickbite-gif.gif)
-
----
-
 ## 🛠️ Tech Stack
 
 * **React.js** – Component-based architecture for scalable UI.
