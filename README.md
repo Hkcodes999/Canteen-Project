@@ -42,11 +42,6 @@
 
 ---
 
-# Whole Project Preview
-
-![Preview](./scroll%20pics/Qlickbite-gif2.gif)
-
----
 
 ## 🚀 Future Enhancements
 
